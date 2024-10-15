@@ -38,5 +38,6 @@ form.addEventListener('submit', (event) => {
         alert(`Tentativa ${attemptCount} registrada.`);
     }
 
+    // Imprimindo as informações no console
     console.log('Usuário registrado:', { username, email, password });
 });
